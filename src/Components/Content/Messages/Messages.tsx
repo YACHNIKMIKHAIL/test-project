@@ -14,7 +14,7 @@ const Messages = (props: MessagesPropsType) => {
         <div className={style.content}>
             <Contact friendsItems={props.friendsItems}/>
             <Dialog myDialogs={props.myDialogs}/>
-
+            <div>Hello</div>
 
         </div>
     )
