@@ -1,0 +1,22 @@
+
+.AppWrapper {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-rows: 0.5fr 5fr 0.2fr;
+    grid-template-areas: "header header"
+  "content navigation"
+  "footer footer";
+    background-image: url("./Components/Images/IMG_1925.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1024px;
+    height: 1545px;
+    max-height: 1545px;
+    margin: 5px auto;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+    font-family: 'Pathway Gothic One';
+}
+

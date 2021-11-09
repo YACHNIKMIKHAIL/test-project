@@ -1,0 +1,23 @@
+.info {
+    grid-area: info;
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+    /*background-color: rgba(4,4,4,0.5);*/
+    color: white;
+    /*font-size: 80px;*/
+    height: 50%;
+    align-items: start;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    grid-template-areas: "info" "infoF";
+}
+
+.avaImg {
+
+}
+
+img {
+    /*border: 5px black dashed;*/
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+}

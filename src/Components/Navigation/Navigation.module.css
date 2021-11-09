@@ -1,0 +1,26 @@
+.navigation {
+    grid-area: navigation;
+    width: 0.5fr;
+    height: 1350px;
+    background-color: rgba(4, 4, 4, 0.5);
+    border-radius: 5px;
+    margin: 0px 10px 5px 5px;
+
+
+}
+
+.link a{
+    display: grid;
+    justify-items: center;
+    margin: 30px auto;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(159, 159, 159, 0.5);
+}
+
+.link a.active{
+    color: yellow;
+    font-size: 28px;
+    background-color: rgba(4, 4, 4, 0.5);
+}

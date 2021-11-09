@@ -1,0 +1,70 @@
+.dialog {
+    grid-area: dialog;
+    background-color: rgba(4, 4, 4, 0.3);
+    margin: 0 5px 0 0;
+    border-radius: 5px;
+    height: 1350px;
+    width: inherit;
+    overflow: auto;
+    display: grid;
+    grid-template-rows: min-content;
+    grid-template-areas: "myMessage myMessage" "yourMessage yourMessage";
+    align-items: start;
+}
+.dialog22{
+
+    width: 610px;
+    /*overflow: auto;*/
+}
+
+.myMessage {
+    grid-area: myMessage;
+    margin: 10px 5px;
+    background-color: rgba(4, 4, 4, 0.5);
+    border-radius: 5px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: "ava mess";
+    justify-content: center;
+    align-items: center;
+    border: 3px rgba(159, 159, 159, 0.5) solid;
+}
+
+.yourMessage {
+    grid-area: yourMessage;
+    margin: 10px 5px;
+    background-color: rgba(159, 159, 159, 0.5);
+    border-radius: 5px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-areas: "yourmess ava";
+    justify-content: center;
+    align-items: center;
+margin: 0 5px 0 auto;
+    border: 3px rgba(4, 4, 4, 0.5) solid;
+}
+
+.message {
+    grid-area: mess;
+    color: white;
+    display: grid;
+    justify-items: end;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.yourmessage {
+    grid-area: yourmess;
+    color: yellow;
+    display: grid;
+    justify-items: start;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.img {
+    grid-area: ava;
+    height: 60px;
+}

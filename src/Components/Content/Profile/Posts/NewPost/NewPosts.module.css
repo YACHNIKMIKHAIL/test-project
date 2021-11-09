@@ -1,0 +1,34 @@
+.content {
+    grid-area: content;
+    border-radius: 5px;
+    margin: 0 10px 10px 10px;
+    /*background-color: rgba(4, 4, 4, 0.5);*/
+    background-color: rgba(255, 255, 255, 0.5);
+    /*color: lightyellow;*/
+    color: black;
+
+
+}
+
+
+
+.post {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+
+    grid-template-areas: "postImg txt";
+    justify-items: center;
+    align-items: center;
+
+}
+
+.postImg {
+    grid-area: postImg;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.txt {
+    grid-area: txt;
+    color: yellow;
+}

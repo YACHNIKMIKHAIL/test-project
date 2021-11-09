@@ -1,0 +1,11 @@
+.info{
+    grid-area: info;
+    border-radius: 5px;
+    /*margin: 15px 10px 5px 10px ;*/
+    background-color: rgba(4,4,4,0.35);
+    /*border: 5px black    solid;*/
+    color: white;
+    font-size: 80px;
+    height: 96%;
+
+}
